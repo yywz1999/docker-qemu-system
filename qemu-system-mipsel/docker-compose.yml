@@ -1,0 +1,12 @@
+version: "3"
+services:
+    pwn_easy_1:
+        image: waveburst/qemu-system-mipsel
+        ports:
+            - "40080:80"
+            - "40555:5555"
+            - "40022:22"
+            - "40023:23"
+            - "40069:69"
+            - "40443:443"
+            - "40496:23946"
