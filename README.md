@@ -18,6 +18,7 @@ waveburst/qemu-system-mips                                               A full 
 ## - USAGE:
 
 - docker-compose up -d
+- chmod +x start.sh
 - docker cp start.sh xxx:/root/start.sh
 - docker restart xxx
 - docker exec -it xxx bash
