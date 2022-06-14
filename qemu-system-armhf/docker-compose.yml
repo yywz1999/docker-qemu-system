@@ -1,6 +1,6 @@
 version: "3"
 services:
-    pwn_easy_1:
+    armhf:
         image: waveburst/qemu-system-armhf
         ports:
             - "30080:80"
