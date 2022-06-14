@@ -1,6 +1,6 @@
 version: "3"
 services:
-    pwn_easy_1:
+    armel:
         image: waveburst/qemu-system-armel
         ports:
             - "20080:80"
