@@ -1,6 +1,6 @@
 version: "3"
 services:
-    pwn_easy_1:
+    mips:
         image: waveburst/qemu-system-mips
         ports:
             - "50080:80"
